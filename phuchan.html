@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/iconKMIeng.gif">
-    <title>the patrix</title>
+    <link rel="icon" href="img/Picture1.png">
+    <title>.: Phuchan Place :.</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,11 +17,48 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+    
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 30%;
+        max-width: 30%;
+        padding: 0 4px;
+      }
+    
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+    
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+    
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
 </head>
 
 <body>
     <header class="site-header">
-        <div class="top">
+        <!-- <div class="top">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -57,7 +94,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--<nav class="navbar navbar-default">
             <div class="container">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
@@ -103,222 +140,270 @@
         </nav>-->
     </header>
     <main class="site-main">
-        <section class="hero_area">
-            <div class="hero_content">
+      <section class="hero_area">
+        <div class="hero_content">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <img src="img/Picture1.png" style="height: 180px; width: 180px;" alt="Post">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section class="boxes_area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <img src="img/Picture1.png" style="height: 180px; width: 180px;" alt="Post">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section class="boxes_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>FIRST BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-cogs"></i>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>SECOND BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-exclamation-triangle"></i>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>THIRD BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section -->
-        <!-- section class="services">
-            <h2 class="section-title">SERVICES</h2>
-            <p class="desc">Praesent faucibus ipsum at sodales blandit</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
+                        <div class="col-sm-4">
+                            <div class="box">
+                                <h3>FIRST BOX TITLE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
                                 <i class="fa fa-cogs"></i>
                             </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FIRST SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor amet,consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="box">
+                                <h3>SECOND BOX TITLE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                <i class="fa fa-exclamation-triangle"></i>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="box">
+                                <h3>THIRD BOX TITLE</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                <i class="fa fa-clipboard"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-user-md"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SECOND SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-stethoscope"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">THIRD SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FOURTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-file-text-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FIFTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-heartbeat"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SIXTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>                     
                 </div>
-            </div>
-        </section -->
-        <section class="home-area">
-            <div class="home_content">
+            </section -->
+      <!-- section class="services">
+                <h2 class="section-title">SERVICES</h2>
+                <p class="desc">Praesent faucibus ipsum at sodales blandit</p>
                 <div class="container">
                     <div class="row">
-                        <!-- ตัวสไลด์ -->
-                        <div class="col-sm-6 home_bottom">
-                            <h2 class="sub_title">Phuchan</h2>
-                            <div class="clearfix"></div>
-                           <!-- <div class="row">
-                                <div class="carousel slide" data-ride="carousel" data-type="" data-interval="3000" id="myCarousel">
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix1.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrixMap.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix3.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix4.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix5.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix6.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-12 col-sm-6 col-xs-12 p10">
-                                                <a href="#">
-                                                    <img src="img/patrix/thePatrix7.jpg" class="img-responsive" alt="Reference">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                        <i class="glyphicon glyphicon-chevron-left"></i>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                        <i class="glyphicon glyphicon-chevron-right"></i>
-                                    </a>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">FIRST SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor amet,consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
                                 </div>
                             </div>
-                        </div>-->
-                        <!-- div class="col-sm-3">
-                            <h2 class="sub_title w10">CALL YOU</h2>
-                            <div class="clearfix"></div>
-                            <div class="login-form-1">
-                                <form id="login-form" class="text-left">
-                                    <div class="login-form-main-message"></div>
-                                    <div class="main-login-form">
-                                        <div class="login-group">
-                                            <div class="form-group">
-                                                <label for="ad" class="sr-only">Name</label>
-                                                <input type="text" class="form-control" id="ad" name="ad" placeholder="Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="tel" class="sr-only">Phone Number</label>
-                                                <input type="text" class="form-control" id="tel" name="tel" placeholder="Phone Number">
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>      -->                      
-                          </div >
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-user-md"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">SECOND SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-stethoscope"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">THIRD SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">FOURTH SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-file-text-o"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">FIFTH SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <i class="fa fa-heartbeat"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">SIXTH SERVICE TITLE</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
+                                </div>
+                            </div>
+                        </div>                     
                     </div>
                 </div>
+            </section -->
+      <section class="home-area">
+        <div class="home_content">
+          <div class="container">
+            <div class="row">
+              <!-- ตัวสไลด์ -->
+              <div class="col-lg-12 col-sm-6 home_bottom">
+                <h2 class="sub_title"><b>Phuchan Place (ภูชาญเพลส)</b>
+                  &nbsp;
+                  <a href="https://goo.gl/maps/cC5cWVEtz9A2" target="_blank">
+                    <img src="img/icon/google.png" alt="google">
+                  </a>
+                  &nbsp;
+                  <a href="https://www.facebook.com/media/set/?set=a.124743740888875&type=3" target="_blank">
+                    <img src="img/icon/facebook.png" alt="facebook">
+                  </a>
+                  &nbsp;
+                  <a href="https://line.me/ti/p/~@PhuChan" target="_blank">
+                    <img src="img/icon/line.png" alt="line">
+                  </a>
+                  &nbsp;
+                  <a href="#">
+                    <img src="img/icon/phone.png" alt="phone"> 099-782-5888
+                  </a>
+                </h2>
+                <h5>19/325 วิภาวดี 60, ถ.วิภาวดีรังสิต แขวงตลาดบางเขน เขต หลักสี่กรุงเทพมหานคร 10210</h5>
+                <h5>19/325 Vibhavadi Rangsit 60, Vibhavadi Rangsit Rd., Talat Bang Khen, LakSi, Bangkok 10210</h5>
+                <br/>
+                <font>อาคารสีแดง ย่านวงเวียนบางบัว เดินทางสะดวก ปลอดภัย สิ่งอำนวยความสะดวกครบครัน</font>
+                <div class="clearfix"></div>
+    
+                <!-- <div class="row">
+                        <div class="carousel slide" data-ride="carousel" data-type="" data-interval="3000" id="myCarousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix1.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrixMap.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix3.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix4.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix5.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix6.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-12 col-sm-6 col-xs-12 p10">
+                                        <a href="#">
+                                            <img src="img/patrix/thePatrix7.jpg" class="img-responsive" alt="Reference">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- div class="col-sm-3">
+                  <h2 class="sub_title w10">CALL YOU</h2>
+                  <div class="clearfix"></div>
+                  <div class="login-form-1">
+                    <form id="login-form" class="text-left">
+                        <div class="login-form-main-message"></div>
+                        <div class="main-login-form">
+                            <div class="login-group">
+                                <div class="form-group">
+                                    <label for="ad" class="sr-only">Name</label>
+                                    <input type="text" class="form-control" id="ad" name="ad" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel" class="sr-only">Phone Number</label>
+                                    <input type="text" class="form-control" id="tel" name="tel" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </form>
+                </div> -->
+
+              </div>
             </div>
-        </section>
+            <div class="row">
+              <div class="column">
+                <img src="img/phuchan/1.jpg">
+                <img src="img/phuchan/2.jpg">
+                <img src="img/phuchan/3.jpg">
+                <img src="img/phuchan/4.jpg">
+                <img src="img/phuchan/5.jpg">
+                <img src="img/phuchan/6.jpg">
+              </div>
+              <div class="column">
+                <img src="img/phuchan/7.jpg">
+                <img src="img/phuchan/8.jpg">
+                <img src="img/phuchan/9.jpg">
+                <img src="img/phuchan/10.jpg">
+                <img src="img/phuchan/11.jpg">
+              </div>
+              <div class="column">
+                <img src="img/phuchan/12.jpg">
+                <img src="img/phuchan/13.jpg">
+                <img src="img/phuchan/14.jpg">
+                <img src="img/phuchan/15.jpg">
+                <img src="img/phuchan/16.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="site-footer">
         <!-- div class="container">
