@@ -97,8 +97,11 @@ h2.section-title {text-align: center;color: #404040;}
 @media (min-width: 767px) and (max-width: 992px ) {.carousel-inner .active.left {left: -50%;}.carousel-inner .next {left:  50%;}.carousel-inner .prev {left: -50%;}.active > div {display:none;}.active > div:first-child {display:block;}.active > div:first-child + div {display:block;}}
 @media (min-width: 992px ) {.carousel-inner .active.left {left: -25%;}.carousel-inner .next {left: 25%;}.carousel-inner .prev {left: -25%;}}
 
+/* Main */
+main.site-main {padding-bottom: 30px;}
+
 /* Footer */
-footer.site-footer {background: #e6e6e6;padding: 20px 0 0;float: left;width: 100%;}
+footer.site-footer {background: #e6e6e6;background: none;padding: 20px 0 0;float: left;width: 100%;position: fixed;bottom: 0;}
 footer.site-footer h4 {font-size: 17px;font-weight: 500;}
 footer.site-footer ul {padding-left: 0;margin-bottom: 20px;list-style: none;}
 footer.site-footer ul a {color: #666;font-size: 13px;}
